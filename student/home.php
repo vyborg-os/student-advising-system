@@ -13,7 +13,7 @@
 <body>
     <!-- Dashboard -->
     <div class="d-flex flex-column flex-lg-row h-lg-full bg-surface-secondary">
-        <?php require_once APPROOT.'/advisor/includes/navigation.php'; ?>
+        <?php require_once APPROOT.'/student/includes/navigation.php'; ?>
         <!-- Main content -->
         <div class="h-screen flex-grow-1 overflow-y-lg-auto">
             <!-- Header -->
@@ -23,36 +23,13 @@
                         <div class="row align-items-center">
                             <div class="col-sm-6 col-12 mb-4 mb-sm-0">
                                 <!-- Title -->
-                                <h1 class="h2 mb-0 ls-tight">Application</h1>
-                            </div>
-                            <!-- Actions -->
-                            <div class="col-sm-6 col-12 text-sm-end">
-                                <div class="mx-n1">
-                                    <a href="#" class="btn d-inline-flex btn-sm btn-neutral border-base mx-1">
-                                        <span class=" pe-2">
-                                            <i class="bi bi-pencil"></i>
-                                        </span>
-                                        <span>Edit</span>
-                                    </a>
-                                    <a href="#" class="btn d-inline-flex btn-sm btn-primary mx-1">
-                                        <span class=" pe-2">
-                                            <i class="bi bi-plus"></i>
-                                        </span>
-                                        <span>Create</span>
-                                    </a>
-                                </div>
+                                <h1 class="h2 mb-0 ls-tight">Student Advising System</h1>
                             </div>
                         </div>
                         <!-- Nav -->
                         <ul class="nav nav-tabs mt-4 overflow-x border-0">
                             <li class="nav-item ">
-                                <a href="#" class="nav-link active">All files</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link font-regular">Shared</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link font-regular">File requests</a>
+                                <a href="#" class="nav-link active">Homepage</a>
                             </li>
                         </ul>
                     </div>
@@ -68,12 +45,12 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col">
-                                            <span class="h6 font-semibold text-muted text-sm d-block mb-2">Budget</span>
-                                            <span class="h3 font-bold mb-0">$750.90</span>
+                                            <span class="h6 font-semibold text-muted text-sm d-block mb-2">Total Appointments</span>
+                                            <span class="h3 font-bold mb-0">75</span>
                                         </div>
                                         <div class="col-auto">
                                             <div class="icon icon-shape bg-tertiary text-white text-lg rounded-circle">
-                                                <i class="bi bi-credit-card"></i>
+                                                <i class="bi bi-clock"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -91,12 +68,12 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col">
-                                            <span class="h6 font-semibold text-muted text-sm d-block mb-2">New projects</span>
+                                            <span class="h6 font-semibold text-muted text-sm d-block mb-2">Total Messages</span>
                                             <span class="h3 font-bold mb-0">215</span>
                                         </div>
                                         <div class="col-auto">
                                             <div class="icon icon-shape bg-primary text-white text-lg rounded-circle">
-                                                <i class="bi bi-people"></i>
+                                                <i class="bi bi-envelope"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -114,12 +91,12 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col">
-                                            <span class="h6 font-semibold text-muted text-sm d-block mb-2">Total hours</span>
-                                            <span class="h3 font-bold mb-0">1.400</span>
+                                            <span class="h6 font-semibold text-muted text-sm d-block mb-2">Total Notes</span>
+                                            <span class="h3 font-bold mb-0">10</span>
                                         </div>
                                         <div class="col-auto">
                                             <div class="icon icon-shape bg-info text-white text-lg rounded-circle">
-                                                <i class="bi bi-clock-history"></i>
+                                                <i class="bi bi-book"></i>
                                             </div>
                                         </div>
                                     </div>
@@ -132,7 +109,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-sm-6 col-12">
+                        <!-- <div class="col-xl-3 col-sm-6 col-12">
                             <div class="card shadow border-0">
                                 <div class="card-body">
                                     <div class="row">
@@ -154,9 +131,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="card shadow border-0 mb-7">
+                    <!-- <div class="card shadow border-0 mb-7">
                         <div class="card-header">
                             <h5 class="mb-0">All Students</h5>
                         </div>
@@ -210,11 +187,11 @@
                         <div class="card-footer border-0 py-5">
                             <span class="text-muted text-sm">Showing 10 items out of 250 results found</span>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </main>
         </div>
     </div>
-    <?php require_once APPROOT.'/advisor/includes/script.php'; ?>
+    <?php require_once APPROOT.'/student/includes/script.php'; ?>
 </body>
 </html>
